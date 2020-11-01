@@ -1,7 +1,15 @@
-<div class="navbar-container">
-        <ul class="navbar-items">
-            <li class="navbar-item">home</li>
-            <li class="navbar-item">search</li>
-            <li class="navbar-item">about</li>
-        </ul>
-</div>
+<ul class="navbar-items">
+    <li class="navbar-item">
+        <a class="nav-link" [routerLink]="['/home']" [routerLinkActive]="['active']">home</a>
+    </li>
+    <li class="navbar-item">
+        <a class="nav-link" [routerLink]="['/search']" [routerLinkActive]="['active']">search</a>
+    </li>
+    <li class="navbar-item">
+        <a class="nav-link" [routerLink]="['/about']" [routerLinkActive]="['active']">about</a>
+    </li>
+    </ul>
+
+
+
+
