@@ -11,19 +11,21 @@
     bottom: 0px;
     left: 50%;
     transform: translateX(-50%);
-
+    justify-content:space-around;
 }
 
 .navbar-item{
     list-style: none;
     height: 100px;
     width: 100px;
-    box-sizing: border-box;;
-    margin: 20px;
+    box-sizing: border-box;
     border-radius: 15px;
     border-width: 2px;
     border-color: black;
     border-style: solid;
     text-align: center;
-    line-height: 82px;
+    line-height: 84px;
+    margin: 15px;
+    align-self: center;
+
 }
